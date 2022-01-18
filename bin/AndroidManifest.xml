@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.GraphingCalculator"
+    android:versionCode="2"
+    android:versionName="1.0.1.0 Build20130913 Beta" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.sunbx.GraphingCalculator.MainActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:label="@string/app_name" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zkl.GraphingCalculator.activities.DrawingAcitity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" 
+            android:label="@string/title_activity_result_acitity" >
+        </activity>
+
+        <activity 
+            android:name="com.zkl.GraphingCalculator.activities.MenuPreferenceActivity">
+        </activity>
+        <activity 
+            android:theme="@style/about_style"
+            android:name="com.zkl.GraphingCalculator.activities.AboutActivity">
+            
+        </activity>
+        <activity 
+            android:name="com.zkl.GraphingCalculator.activities.HistoryAcitvity"
+            android:theme="@style/history_style"
+            ></activity>
+        <activity 
+            android:theme="@style/help_style"
+            android:name="com.zkl.GraphingCalculator.activities.HelpActivity">
+            
+        </activity>
+    </application>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+</manifest>
