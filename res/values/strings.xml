@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GraphingCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tv1">f(x)=</string>
+    <string name="btn_01">^</string>
+    <string name="btn_021">(</string>
+    <string name="btn_022">)</string>
+    <string name="btn_03">Del</string>
+    <string name="btn_04">AC</string>
+    <string name="btn_05">sin</string>
+    <string name="btn_06">cos</string>
+    <string name="btn_07">tan</string>
+    <string name="btn_11">7</string>
+    <string name="btn_12">8</string>
+    <string name="btn_13">9</string>
+    <string name="btn_14">+</string>
+    <string name="btn_15">arcsin</string>
+    <string name="btn_16">arccos</string>
+    <string name="btn_17">arctan</string>
+    <string name="btn_21">4</string>
+    <string name="btn_22">5</string>
+    <string name="btn_23">6</string>
+    <string name="btn_24">-</string>
+    <string name="btn_25">ln</string>
+    <string name="btn_26">log</string>
+    <string name="btn_27">e</string>
+    <string name="btn_31">1</string>
+    <string name="btn_32">2</string>
+    <string name="btn_33">3</string>
+    <string name="btn_34">×</string>
+    <string name="btn_35">√</string>
+    <string name="btn_36"><sup><small>3</small></sup>√x</string>
+    <string name="btn_37">x<sup><small>2</small></sup></string>
+    <string name="btn_41">0</string>
+    <string name="btn_42">.</string>
+    <string name="btn_43">x</string>
+    <string name="btn_44">÷</string>
+    <string name="btn_45">|x|</string>
+    <string name="btn_46">π</string>
+    <string name="btn_47">round</string>
+    <string name="btn_cal">Draw</string>
+    <string name="btnequal">=</string>
+    <string name="simple_btn_24">3√x</string>
+
+    <drawable name="bgcolor">#000000</drawable>
+
+    <string name="title_activity_result_acitity">MainActivity</string>
+    <string name="title_activity_preference">MainActivity</string>
+    <string name="title_activity_menupreference">MainActivity</string>
+
+    <!--  我只是分割线  -->
+     <string name="about_title">About</string>
+     <string name="about_body">Version:1.0.1.0 Build20130913 Beta\nAuthors:Boxing Sun,Kailin Zhang\nBeijing University Of technology\nSpecial Thanks to our classmates Hongjie Gao,Miao Zhou,Yonghe Li for testing the application!\nE-mail:graphingcalculator@163.com\nIf you have any suggestions or anything want to tell us, please send e-mail to us. We\'re looking forward to your valuable opinions!</string>
+     <string name="compute_textview">Please enter values for X:</string>
+     <string name="compute_compute">Compute</string>
+     <string name="compute_cancel">Cancel</string>
+     <string name="history_title">History</string>
+     <string name="history_draw_graphic">Draw</string>
+     <string name="history_clear">Remove All</string>
+     <string name="history_cancel">Cancel</string>
+     <string name="history_radiogroup_discription">History</string>
+     <string name="help_document">1.How to use calculator function?\nWhen you turn on auto-rotate screen and rotate to vertical orientation, calculator interface will appear.\n2.How to use drawing function?\nWhen you turn on auto-rotate screen and rotate to horizontal orientation, drawing interface will appear.\n3.Why I can\'t see function graphics?\nMaybe the graphics is out of the screen, you can drag the screen to find it.\n4.How to deal with the discrete point?\nYou can improve drawing quality to reduce the discrete point.\n5.How to choose point?Click the position you want to choose in graphics.\n6.Accuracy of choose point is too low?\nYou can change accuracy in settings.</string>
+     <string name="history_confirm_dialog_title">Are you sure to clear the history?</string>
+     <string name="history_confirm_dialog_confirm">OK</string>
+     <string name="history_confirm_dialog_cancel">Cancel</string>
+     <string name="history_nochoose">No records are selected</string>
+     <string name="menu_compute">Compute</string>
+     <string name="menu_history">History</string>
+     <string name="menu_setting">Settings</string>
+     <string name="menu_help">Help</string>
+     <string name="menu_about">About</string>
+     <string name="menu_exit">Exit</string>
+     <string name="preference_general">General preferences</string>
+     <string name="preference_quality_dialogtitle">Drawing quality</string>
+     <string name="preference_quality_title">Drawing quality</string>
+     <string name="preference_quelity_summary">Improvement of drawing quality maybe cause slow moving of graphics</string>
+     <string name="preference_line_thickness_dialogtitle">Line thickness</string>
+     <string name="preference_line_thickness_title">Line thickness</string>
+     <string name="preference_line_thickness_summary">Adjust line thickness</string>
+     <string name="preference_font_size_dialogtitle">Font size</string>
+     <string name="preference_font_size_title">Font size</string>
+     <string name="preference_font_size_summary">Adjust font size in the screen</string>
+     <string name="preference_accuracy_dialogtitle">Adjust accuracy</string>
+     <string name="preference_accuracy_title">Accuracy of choose point</string>
+     <string name="preference_accuracy_summary">Adjust number of decimal</string>
+     <string name="preference_setting_of_display">Settings of display</string>
+     <string name="preference_show_grid">Show grids</string>
+     <string name="preference_show_function_equation">Show function equation</string>
+     <string name="preference_show_originpoint_position">Show origin position</string>
+     <string name="preference_show_coordinate_lenth">Show coordinate axes lenth</string>
+     <string name="drawinformation_graph_information">Graphics information:</string>
+     <string name="drawinformation_function_equation">Function equation:</string>
+     <string name="drawinformation_originpoint_position">Origin position:</string>
+     <string name="drawinformation_x_axis_width">Width of the X-axis:</string>
+     <string name="drawinformation_y_axis_width">Width of the Y-axis:</string>
+     <string name="choosepoint_position">Choose point:</string>
+     <!--  我只是分割线  -->
+     <string name="out_of_bound">Result out of bound!</string>
+     <string name="mismatched_bracket">Mismatched bracket</string>
+     <string name="wrong_expression">Wrong expression</string>
+     <string name="no_expression">No expression</string>
+     
+     <string name="press_again_to_exit">Press again to exit</string>
+</resources>

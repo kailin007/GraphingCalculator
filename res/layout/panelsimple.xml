@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+        >
+        <EditText 
+            android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="left|center_vertical"
+    		android:layout_weight="1"
+    		android:id="@+id/et2"
+    		android:textSize="48px"
+    		android:background="@null"
+    		android:textColor="#FFF"
+    		android:singleLine="true"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:layout_weight="1"
+    		android:id="@+id/tv2"
+    		android:textSize="36px"
+    		android:background="@null"
+    		android:textColor="#FFF"
+    		android:text="0"
+            />
+    </LinearLayout>
+
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+        <!-- ( -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_11"
+    		android:text="@string/btn_021"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- ) -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_12"
+    		android:text="@string/btn_022"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- del -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_13"
+    		android:text="@string/btn_03"
+    		android:background="@drawable/red_button_style"
+    		android:textColor="#FFF"
+            />
+        <!-- ac -->
+         <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_14"
+    		android:text="@string/btn_04"
+    		android:background="@drawable/red_button_style"
+    		android:textColor="#FFF"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+        <!-- √ -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_21"
+    		android:text="@string/btn_35"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- x^2 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_22"
+    		android:text="@string/btn_37"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- x^3 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_23"
+    		android:text="@string/simple_btn_24"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- ^ -->
+         <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_24"
+    		android:text="@string/btn_01"
+    		android:background="@drawable/darkgray_button_style"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+        <!-- sin -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_31"
+    		android:text="@string/btn_05"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- cos -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_32"
+    		android:text="@string/btn_06"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- tan -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_33"
+    		android:text="@string/btn_07"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- log -->
+         <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_34"
+    		android:text="@string/btn_26"
+    		android:background="@drawable/darkgray_button_style"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+        <!-- arcsin -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_41"
+    		android:text="@string/btn_15"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- arccos -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_42"
+    		android:text="@string/btn_16"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- arctan -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_43"
+    		android:text="@string/btn_17"
+    		android:background="@drawable/darkgray_button_style"
+            />
+        <!-- ln -->
+         <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_44"
+    		android:text="@string/btn_25"
+    		android:background="@drawable/darkgray_button_style"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+        <!-- π -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_51"
+    		android:text="@string/btn_46"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- e -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_52"
+    		android:text="@string/btn_27"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- ÷ -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_53"
+    		android:text="@string/btn_44"
+    		android:background="@drawable/orange_button_style"
+            />
+        <!-- × -->
+         <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_54"
+    		android:text="@string/btn_34"
+    		android:background="@drawable/orange_button_style"
+            />
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+        <!-- 7 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_61"
+    		android:text="@string/btn_11"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- 8 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_62"
+    		android:text="@string/btn_12"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- 9 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_63"
+    		android:text="@string/btn_13"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- + -->
+         <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_64"
+    		android:text="@string/btn_14"
+    		android:background="@drawable/orange_button_style"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+        <!-- 4 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_71"
+    		android:text="@string/btn_21"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- 5 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_72"
+    		android:text="@string/btn_22"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- 6 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_73"
+    		android:text="@string/btn_23"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- - -->
+         <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_74"
+    		android:text="@string/btn_24"
+    		android:background="@drawable/orange_button_style"
+            />
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        >
+         <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+        >
+        <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        >
+        <!-- 1 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_81"
+    		android:text="@string/btn_31"
+    		android:layout_gravity="top"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- 2 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_82"
+    		android:text="@string/btn_32"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        <!-- 3 -->
+        <Button 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/simple_83"
+    		android:text="@string/btn_33"
+    		android:background="@drawable/lightgray_button_style"
+            />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+            >
+            <Button 
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/simple_91"
+    			android:text="@string/btn_41"
+    			android:background="@drawable/lightgray_button_style"
+                />
+            <Button 
+                android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="@string/btn_42"
+    			android:id="@+id/simple_92"
+    			android:background="@drawable/lightgray_button_style"
+    			/>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        >
+        <!-- = -->
+        <Button
+        android:id="@+id/simple_84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnequal"
+        android:height="150px"
+        android:background="@drawable/orange_button_style" />
+        </LinearLayout>
+         </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/preference_general">
+	<com.zkl.GraphingCalculator.settings.QualitySeekBar
+    	android:dialogTitle="@string/preference_quality_dialogtitle" 
+		android:title="@string/preference_quality_title" 
+		android:summary="@string/preference_quelity_summary" 
+		android:key="quality" 
+		android:dialogLayout="@layout/seekbar_layout_draw_quality">
+	</com.zkl.GraphingCalculator.settings.QualitySeekBar>
+	
+    <com.zkl.GraphingCalculator.settings.ThicknessSeekBar
+       	android:dialogTitle="@string/preference_line_thickness_dialogtitle" 
+		android:title="@string/preference_line_thickness_title" 
+		android:summary="@string/preference_line_thickness_summary" 
+		android:key="thickness" 
+		android:dialogLayout="@layout/seekbar_layout_function_thickness">
+		</com.zkl.GraphingCalculator.settings.ThicknessSeekBar>
+		
+    <com.zkl.GraphingCalculator.settings.FontSizeSeekbar
+       	android:dialogTitle="@string/preference_font_size_dialogtitle" 
+		android:title="@string/preference_font_size_title" 
+		android:summary="@string/preference_font_size_summary" 
+		android:key="textsize" 
+		android:dialogLayout="@layout/seekbar_layout_fonts_size">
+		</com.zkl.GraphingCalculator.settings.FontSizeSeekbar>
+		
+    <com.zkl.GraphingCalculator.settings.AccuracySeekBar
+       	android:dialogTitle="@string/preference_accuracy_dialogtitle" 
+		android:title="@string/preference_accuracy_title" 
+		android:summary="@string/preference_accuracy_summary" 
+		android:key="accuracy" 
+		android:dialogLayout="@layout/seekbar_layout_accuracy">
+		</com.zkl.GraphingCalculator.settings.AccuracySeekBar>
+		
+        </PreferenceCategory>
+        
+    <PreferenceCategory android:title="@string/preference_setting_of_display">
+            <CheckBoxPreference
+        android:title="@string/preference_show_grid"
+        android:key="grid"
+        android:defaultValue="true"
+        >
+        </CheckBoxPreference>
+        	<CheckBoxPreference 
+         	   	android:title="@string/preference_show_function_equation"
+         	   	android:key="information1"
+         	   	android:defaultValue="true"
+            />
+      	  <CheckBoxPreference 
+      	      android:title="@string/preference_show_originpoint_position"
+      	      android:key="information2"
+      	      android:defaultValue="false"
+        	/>
+      	  <CheckBoxPreference 
+        	    android:title="@string/preference_show_coordinate_lenth"
+        	    android:key="information3"
+        	    android:defaultValue="true"
+       	    />
+     </PreferenceCategory>
+        
+        
+</PreferenceScreen>

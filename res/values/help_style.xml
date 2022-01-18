@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+ 
+    <!-- 定义一个样式，继承android系统的对话框样式 android:style/Theme.Dialog --> 
+    <style name="help_style" parent="android:style/Theme.Dialog"> 
+        <item name="android:windowBackground">@drawable/help_bg</item> 
+    </style> 
+ 
+</resources> 

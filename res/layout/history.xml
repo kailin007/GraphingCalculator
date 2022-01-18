@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:id="@+id/toppanel"
+	>	
+    	<TextView 
+            android:layout_width="fill_parent"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="@string/history_title"
+ 		    android:id="@+id/textview_search_history"
+        />
+    </RelativeLayout>
+    
+        <RelativeLayout 
+        android:id="@+id/panelBottom" 
+        android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+  	 	android:layout_gravity="center_horizontal"
+  	 	android:layout_alignParentBottom="true"
+  	 	>
+    	<Button 
+        android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:text="@string/history_draw_graphic"
+   		android:id="@+id/button_draw_history"
+   		android:layout_centerHorizontal="true"
+            />
+    	
+  	 	<Button 
+        android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:text="@string/history_clear"
+   		android:id="@+id/button_clear_history"
+   		android:layout_toLeftOf="@id/button_draw_history"
+            />
+
+        <Button 
+        android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:text="@string/history_cancel"
+   		android:id="@+id/button_exit_history"
+   		android:layout_toRightOf="@id/button_draw_history"
+            />
+    </RelativeLayout>
+    
+    <ScrollView
+    		android:layout_below ="@id/toppanel"
+			android:layout_above="@id/panelBottom"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+   			android:scrollbars="none"
+  			android:id="@+id/scrollview_history"
+   		 >	
+    <RelativeLayout 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+  	 	android:orientation="vertical"
+  	 	android:id="@+id/layout_history"
+        >
+  	 		<RadioGroup 
+   	    	android:id="@+id/radiogroup_history" 
+   	   	    android:contentDescription="@string/history_radiogroup_discription" 
+     	    android:layout_width="wrap_content" 
+      	 	android:layout_height="wrap_content"
+     		>
+			</RadioGroup>
+		
+    </RelativeLayout>
+    
+    </ScrollView>
+
+</RelativeLayout>
+

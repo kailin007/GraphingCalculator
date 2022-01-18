@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">圖形計算器</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tv1">f(x)=</string>
+    <string name="btn_01">^</string>
+    <string name="btn_021">(</string>
+    <string name="btn_022">)</string>
+    <string name="btn_03">Del</string>
+    <string name="btn_04">AC</string>
+    <string name="btn_05">sin</string>
+    <string name="btn_06">cos</string>
+    <string name="btn_07">tan</string>
+    <string name="btn_11">7</string>
+    <string name="btn_12">8</string>
+    <string name="btn_13">9</string>
+    <string name="btn_14">+</string>
+    <string name="btn_15">arcsin</string>
+    <string name="btn_16">arccos</string>
+    <string name="btn_17">arctan</string>
+    <string name="btn_21">4</string>
+    <string name="btn_22">5</string>
+    <string name="btn_23">6</string>
+    <string name="btn_24">-</string>
+    <string name="btn_25">ln</string>
+    <string name="btn_26">log</string>
+    <string name="btn_27">e</string>
+    <string name="btn_31">1</string>
+    <string name="btn_32">2</string>
+    <string name="btn_33">3</string>
+    <string name="btn_34">×</string>
+    <string name="btn_35">√</string>
+    <string name="btn_36"><sup><small>3</small></sup>√x</string>
+    <string name="btn_37">x<sup><small>2</small></sup></string>
+    <string name="btn_41">0</string>
+    <string name="btn_42">.</string>
+    <string name="btn_43">x</string>
+    <string name="btn_44">÷</string>
+    <string name="btn_45">|x|</string>
+    <string name="btn_46">π</string>
+    <string name="btn_47">round</string>
+    <string name="btn_cal">繪製函數</string>
+    <string name="btnequal">=</string>
+    <string name="simple_btn_24">3√x</string>
+
+    <drawable name="bgcolor">#000000</drawable>
+
+    <string name="title_activity_result_acitity">MainActivity</string>
+    <string name="title_activity_preference">MainActivity</string>
+    <string name="title_activity_menupreference">MainActivity</string>
+
+    <!--  我只是分割線  -->
+     <string name="about_title">關於本程式</string>
+     <string name="about_body">版本：1.0.1.0 Build20130913 Beta\n作者：孫博星 張凱林\n北京工業大學\n特別感謝我們的同學高宏傑、周妙、李永赫參加程式測試！\n聯繫方式：graphingcalculator@163.com\n如果您有任何意見或建議，請發送至以上郵箱，我們期待您的寶貴意見！</string>
+     <string name="compute_textview">請輸入x的值：</string>
+     <string name="compute_compute">計算</string>
+     <string name="compute_cancel">取消</string>
+     <string name="history_title">查詢歷史記錄</string>
+     <string name="history_draw_graphic">繪製圖像</string>
+     <string name="history_clear">清空</string>
+     <string name="history_cancel">取消</string>
+     <string name="history_radiogroup_discription">查詢歷史</string>
+     <string name="help_document">1.如何使用計算器功能？\n當您將手機“自動旋轉”功能開啟，並且旋轉到垂直方向時，自動切換至計算器介面。\n2.如何使用繪圖功能？\n當您將手機“自動旋轉”功能開啟，並且旋轉到水準方向時，自動切換至繪圖介面。\n3.為什麼繪製出來只有坐標軸沒有圖像？\n可能您繪製的圖像在螢幕範圍以外，這時候您只要拖動尋找即可。\n4.圖像出現離散點怎麼辦？\n您可以通過提高繪圖品質來減少離散點。\n5.如何選中圖像上的點？直接點擊圖像即可。\n6.選中點座標顯示的精度太低了？\n您可以在設置中調整計算精度。</string>
+     <string name="history_confirm_dialog_title">確定要清空歷史記錄？</string>
+     <string name="history_confirm_dialog_confirm">確定</string>
+     <string name="history_confirm_dialog_cancel">取消</string>
+     <string name="history_nochoose">還沒有選擇記錄</string>
+     <string name="menu_compute">計算</string>
+     <string name="menu_history">歷史</string>
+     <string name="menu_setting">設置</string>
+     <string name="menu_help">幫助</string>
+     <string name="menu_about">關於</string>
+     <string name="menu_exit">退出</string>
+     <string name="preference_general">參數設置</string>
+     <string name="preference_quality_dialogtitle">繪圖品質</string>
+     <string name="preference_quality_title">繪圖品質調整</string>
+     <string name="preference_quelity_summary">繪圖品質提高可能會造成圖像移動緩慢等情況</string>
+     <string name="preference_line_thickness_dialogtitle">線條粗細</string>
+     <string name="preference_line_thickness_title">線條粗細調整</string>
+     <string name="preference_line_thickness_summary">調整線條的粗細</string>
+     <string name="preference_font_size_dialogtitle">文字大小</string>
+     <string name="preference_font_size_title">文字大小調整</string>
+     <string name="preference_font_size_summary">調整顯示文字的大小</string>
+     <string name="preference_accuracy_dialogtitle">精度調整</string>
+     <string name="preference_accuracy_title">選中點精度調整</string>
+     <string name="preference_accuracy_summary">調整選中點顯示的小數位數</string>
+     <string name="preference_setting_of_display">顯示資訊設置</string>
+     <string name="preference_show_grid">顯示網格</string>
+     <string name="preference_show_function_equation">顯示函數方程</string>
+     <string name="preference_show_originpoint_position">顯示原點位置</string>
+     <string name="preference_show_coordinate_lenth">顯示坐標軸長度</string>
+     <string name="drawinformation_graph_information">圖像資訊：</string>
+     <string name="drawinformation_function_equation">函數方程：</string>
+     <string name="drawinformation_originpoint_position">原點位置：</string>
+     <string name="drawinformation_x_axis_width">X軸寬度：</string>
+     <string name="drawinformation_y_axis_width">Y軸寬度：</string>
+     <string name="choosepoint_position">選中點座標：</string>
+     <!--  我只是分割線  -->
+     <string name="out_of_bound">計算數值超過最大值！</string>
+     <string name="mismatched_bracket">括弧不匹配</string>
+     <string name="wrong_expression">運算式錯誤</string>
+     <string name="no_expression">沒有輸入運算式</string>
+     
+     <string name="press_again_to_exit">再按一次退出程式</string>
+</resources>
