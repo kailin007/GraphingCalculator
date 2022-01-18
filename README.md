@@ -1,6 +1,6 @@
 # GraphingCalculator
 
-GraphingCalculator can do scientific calculation as well as draw any function of one variable.
+GraphingCalculator can do scientific calculation as well as draw functions of one variable.
 
 <div id="vertical">
 <img src="https://github.com/kailin007/GraphingCalculator/blob/main/screenshots/1.png" alt="Editor" width="200">
