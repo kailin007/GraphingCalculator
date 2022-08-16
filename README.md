@@ -1,6 +1,6 @@
 # GraphingCalculator
 
-GraphingCalculator can do scientific calculation and draw custom function images.
+GraphingCalculator can do scientific calculation and plot custom functions of one variable.
 
 <div id="vertical">
 <img src="https://github.com/kailin007/GraphingCalculator/blob/main/screenshots/1.png" alt="Editor" width="200">
